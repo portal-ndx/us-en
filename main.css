@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.green-line{
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    background-color: #c2ff52;
+    text-align: center;
+    height: 3vh;
+}
+.banner-head h1{
+    font-size: 4vw;
+}
+.banner-head p{
+    font-size: 1vw;
+}
+
+.strip{
+    height: 3vh;
+    background: #c2ff52;
+}
+
+.content-content{
+    padding: 3em 5em;
+    margin-bottom: px;
+    background-color: #000000;
+    color: aliceblue;
+}
+@media (max-width: 768px){
+    .banner-head h1{
+        font-size: 8vw;
+    }
+    .banner-head p{
+        font-size: 3vw;
+    }
+    .green-line{
+        font-size: 4vw;
+    }
+
+    .content-content{
+        padding: 2em 2em;
+        margin-bottom: px;
+        background-color: #000000;
+        color: aliceblue;
+    }
+    .content-content h1{
+        font-size: 25px;
+    }
+    .content-content h2{
+        font-size: 18px;
+    }
+    .content-content p{
+       font-size:10px ;
+    }
+}
+
